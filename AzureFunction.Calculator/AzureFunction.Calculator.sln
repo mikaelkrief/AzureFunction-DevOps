@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunction.Calculator", 
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureFunction.ARMTemplates", "AzureFunction.ARMTemplates\AzureFunction.ARMTemplates.deployproj", "{5C0236E8-52B7-47B6-92E8-7F0793D2B349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction.Tests", "AzureFunction.Tests\AzureFunction.Tests.csproj", "{16D7F5BE-6B17-4851-9B15-7F5642ECD5CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{A32D0004-1618-43D7-B9C5-BAE1A9388212}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C0236E8-52B7-47B6-92E8-7F0793D2B349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C0236E8-52B7-47B6-92E8-7F0793D2B349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D7F5BE-6B17-4851-9B15-7F5642ECD5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D7F5BE-6B17-4851-9B15-7F5642ECD5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D7F5BE-6B17-4851-9B15-7F5642ECD5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D7F5BE-6B17-4851-9B15-7F5642ECD5CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

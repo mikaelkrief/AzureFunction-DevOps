@@ -8,6 +8,23 @@
 	"item": [
 		{
 			"name": "Add",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ce906aef-bc22-4a67-b542-a42fac0be972",
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Add AzureFunction - Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"Add Response is correct\", function () {",
+							"    pm.response.to.have.body(\"15\");",
+							"});"
+						]
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -40,6 +57,22 @@
 		},
 		{
 			"name": "Substract",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cf64c347-c194-49a4-be29-5c8098c97a73",
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Substract AzureFunction - Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"Substract Response is correct\", function () {",
+							"    pm.response.to.have.body(\"5\");",
+							"});"
+						]
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
