@@ -1,0 +1,74 @@
+{
+	"info": {
+		"name": "AzureFunction-DEMO",
+		"_postman_id": "f1c1807b-eeb1-6398-3ab6-7852461e2823",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_af}}/api/Add?a=5&b=10",
+					"host": [
+						"{{url_af}}"
+					],
+					"path": [
+						"api",
+						"Add"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "5",
+							"equals": true
+						},
+						{
+							"key": "b",
+							"value": "10",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Substract",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_af}}/api/Substract?a=10&b=5",
+					"host": [
+						"{{url_af}}"
+					],
+					"path": [
+						"api",
+						"Substract"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "10",
+							"equals": true
+						},
+						{
+							"key": "b",
+							"value": "5",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
