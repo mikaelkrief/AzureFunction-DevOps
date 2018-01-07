@@ -1,0 +1,1 @@
+D:\Repos\AzureFunction-DevOps\AzureFunction.Calculator\AzureFunction.ARMTemplates\obj\Debug\AzureFunction.ARMTemplates.deployproj.CoreCompileInputs.cache
