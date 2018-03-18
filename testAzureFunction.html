@@ -1,0 +1,25 @@
+<html>
+    <head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+
+ </head>
+    <body>
+        <pre id="data"></pre>    
+		
+		
+		 <script  type="text/javascript">
+
+jQuery.ajax( {
+    url: 'http://calculator-dev.azurewebsites.net/api/Add?a=5&b=10',
+    type: 'GET',
+    data: { content: 'testing test' },
+	beforeSend : function( xhr ) {
+        xhr.setRequestHeader( "Access-Control-Allow-Origin", "*" );
+    },
+    success: function( response ) {
+        // response
+    }
+} );
+ </script>
+    </body>
+</html>
